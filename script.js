@@ -9,3 +9,7 @@ function teste(){
 function carrinho(){
     console.log("adicionando produtos no carrinho")
 }
+
+function produtos(){
+    console.log("produtos")
+}
