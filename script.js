@@ -45,6 +45,12 @@ async function execute(){
    ("https://api.punkapi.com/v2/beers/random");
    console.log(await result.json());
 }
+
+async function execute1(){
+    const result = await fetch("https://api.punkapi.com/v2/beers/random")
+    .then(res => res.json());
+    console.log(result);
+}
 function teste(){
     // codando para o merge
   }
@@ -52,16 +58,6 @@ function teste(){
   function carrinho(){
       console.log("adicionando produtos no carrinho")
   }
-  
-  function produtos(){
-      console.log("produtos")
-  }
-
-async function execute1(){
-    const result = await fetch("https://api.punkapi.com/v2/beers/random")
-    .then(res => res.json());
-    console.log(result);
-}
 
 async function execute2(){
     const result = (await fetch("https://api.punkapi.com/v2/beers/random")).json();
