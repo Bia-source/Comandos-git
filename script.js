@@ -8,6 +8,7 @@ function timeoutCreateCard(){
     // 1.2 Uma stringjson
     // 1.3 Apenas o valor da mensagem tudo em caixa alta 
 
+    
     // 1.1 = {message: 'Hello World!'}
     // 1.2 = '{message: 'Hello World!'}'
     // 1.3 = 'HELLO WORLD!')
